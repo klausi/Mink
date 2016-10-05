@@ -1,6 +1,6 @@
 {
-    "name":         "behat/mink",
-    "description":  "Browser controller/emulator abstraction for PHP",
+    "name":         "klausi/mink",
+    "description":  "Forked from behat/mink: Browser controller/emulator abstraction for PHP",
     "keywords":     ["web", "testing", "browser"],
     "homepage":     "http://mink.behat.org/",
     "type":         "library",
@@ -8,9 +8,8 @@
 
     "authors": [
         {
-            "name":      "Konstantin Kudryashov",
-            "email":     "ever.zet@gmail.com",
-            "homepage":  "http://everzet.com"
+            "name":      "Klaus Purer",
+            "email":     "klaus.purer@gmail.com"
         }
     ],
 
@@ -39,12 +38,6 @@
     "autoload-dev": {
         "psr-4": {
             "Behat\\Mink\\Tests\\": "tests"
-        }
-    },
-
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.7.x-dev"
         }
     }
 }
